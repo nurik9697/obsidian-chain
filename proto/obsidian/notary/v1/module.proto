@@ -1,0 +1,12 @@
+syntax = "proto3";
+package obsidian.notary.v1;
+
+import "cosmos/app/v1alpha1/module.proto";
+
+message Module {
+  option (cosmos.app.v1alpha1.module) = {
+    // Этот путь Ignite создаст физически в папке x/notary/
+    go_import: "obsidian/x/notary"
+  };
+  string authority = 1;
+}

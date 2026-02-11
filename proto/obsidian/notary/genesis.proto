@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package obsidian.notary;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+import "obsidian/notary/params.proto";
+import "obsidian/notary/document.proto";
+
+option go_package = "obsidian/x/notary/types";
+
+// GenesisState defines the notary module's genesis state.
+message GenesisState {
+  
+  // params defines all the parameters of the module.
+           Params   params       = 1 [(gogoproto.nullable) = false, (amino.dont_omitempty) = true];
+  repeated Document documentList = 2 [(gogoproto.nullable) = false] ;
+}
+

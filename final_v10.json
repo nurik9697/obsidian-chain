@@ -1,0 +1,11 @@
+{
+ "content": {
+  "@type": "/cosmos.gov.v1beta1.TextProposal",
+  "title": "Obsidian Awakening",
+  "description": "This proposal will establish ID 1 in the network."
+ },
+ "metadata": "ipfs://CID",
+ "deposit": "10000000uobs",
+ "title": "Awakening",
+ "summary": "Establishing first proposal"
+}

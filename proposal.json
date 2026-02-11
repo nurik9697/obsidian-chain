@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.gov.v1.MsgExecLegacyContent",
+      "content": {
+        "@type": "/cosmos.gov.v1beta1.TextProposal",
+        "title": "Obsidian Manifesto",
+        "description": "Obsidian L1: Burn 25%, Inflation 0.5%, Community Pool 5%. This is the future."
+      },
+      "authority": "obsidian10d07y265gmmuvt4z0v9se09met862kk6v6u83n"
+    }
+  ],
+  "metadata": "ipfs://CID",
+  "deposit": "10000000uobs",
+  "title": "Obsidian Manifesto",
+  "summary": "Setting the vision for Obsidian L1"
+}

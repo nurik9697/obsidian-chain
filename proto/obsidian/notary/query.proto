@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+package obsidian.notary;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+import "google/api/annotations.proto";
+import "cosmos/base/query/v1beta1/pagination.proto";
+import "obsidian/notary/params.proto";
+import "obsidian/notary/document.proto";
+
+option go_package = "obsidian/x/notary/types";
+
+// Query defines the gRPC querier service.
+service Query {
+  
+  // Parameters queries the parameters of the module.
+  rpc Params (QueryParamsRequest) returns (QueryParamsResponse) {
+    option (google.api.http).get = "/obsidian/notary/params";
+  
+  }
+  
+  // Queries a list of Document items.
+  rpc Document    (QueryGetDocumentRequest) returns (QueryGetDocumentResponse) {
+    option (google.api.http).get = "/obsidian/notary/document/{index}";
+  
+  }
+  rpc DocumentAll (QueryAllDocumentRequest) returns (QueryAllDocumentResponse) {
+    option (google.api.http).get = "/obsidian/notary/document";
+  
+  }
+}
+// QueryParamsRequest is request type for the Query/Params RPC method.
+message QueryParamsRequest {}
+
+// QueryParamsResponse is response type for the Query/Params RPC method.
+message QueryParamsResponse {
+  
+  // params holds all the parameters of this module.
+  Params params = 1 [(gogoproto.nullable) = false, (amino.dont_omitempty) = true];
+}
+
+message QueryGetDocumentRequest {
+  string index = 1;
+}
+
+message QueryGetDocumentResponse {
+  Document document = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllDocumentRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+string ownerAddress = 2;
+}
+
+message QueryAllDocumentResponse {
+  repeated Document                               document   = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination = 2;
+}
+

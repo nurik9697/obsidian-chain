@@ -1,0 +1,13 @@
+syntax = "proto3";
+package obsidian.notary;
+
+option go_package = "obsidian/x/notary/types";
+
+message Document {
+  string index = 1; 
+  string fileHash = 2; 
+  string owner = 3; 
+  int32 timestamp = 4; 
+  string creator = 5;
+}
+

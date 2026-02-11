@@ -1,0 +1,19 @@
+{
+ "messages": [
+  {
+   "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+   "authority": "cosmos10d07y265gmmuvt4z0w9aw880jnsr700j6zn9kn",
+   "recipient": "obs1s0rv02sn65u8j0nm3x9nv9ksl8l752hrysa34h",
+   "amount": [
+    {
+     "denom": "uobs",
+     "amount": "10000000"
+    }
+   ]
+  }
+ ],
+ "metadata": "ipfs://CID",
+ "deposit": "10000000uobs",
+ "title": "Payout v3",
+ "summary": "Direct community pool spend"
+}

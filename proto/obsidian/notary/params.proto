@@ -1,0 +1,15 @@
+syntax = "proto3";
+package obsidian.notary;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "obsidian/x/notary/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (amino.name) = "obsidian/x/notary/Params";
+  option (gogoproto.equal) = true;
+
+  
+}
