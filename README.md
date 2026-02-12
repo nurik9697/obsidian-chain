@@ -1,5 +1,5 @@
 # 💎 Obsidian: LegalTech Layer-1 Blockchain
-
+![Obsidian Node Running](./images/node_running.png)
 **Obsidian** is a high-performance L1 blockchain engineered on the **Cosmos SDK v0.50**, specifically designed for the **LegalTech** sector (Digital Notary, Document Verification, and Immutable Evidence).
 
 ## 🚀 Key Value Propositions
