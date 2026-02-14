@@ -26,12 +26,16 @@ Obsidian follows a transparent, on-chain distribution model established at the G
 Obsidian is designed as **"Ultrasound Legal Money"**. The 25% burn mechanism ensures that as the legal industry adopts the network for document verification, the circulating supply of OBS decreases, increasing the fundamental value of the remaining tokens. [1.2]
 
 ## 🏛 Private Seed Round (Open)
-The **Private Seed** round is currently open for strategic partners and institutional investors.
+Obsidian is currently in the **Pre-Seed** stage, offering an attractive entry point for strategic early partners.
 
-*   **Target Price**: $0.035
-*   **Listing Target**: $0.15 - $0.30
-*   **Minimum Entry**: $25,000
-*   **Inquiries**: [sagynbeknurslan95@gmail.com]
+*   **Current Phase: Strategic Pre-Seed** 🚀
+    *   Target Price: **$0.02** ($10M FDV)
+*   **Upcoming: Private Seed Round**
+    *   Target Price: **$0.05** (2.5x Step-up)
+*   **Upcoming: Public Pre-sale**
+    *   Target Price: **$0.10** (2x Step-up)
+*   **Listing Target:** **$0.20+** (10x Potential)
+*   **Inquiries:** [sagynbeknurslan95@gmail.com]
 
 ---
 *Empowering Legal Certainty with Proof-of-Stake Security.*
