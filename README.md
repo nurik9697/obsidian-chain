@@ -25,7 +25,7 @@ Obsidian follows a transparent, on-chain distribution model established at the G
 ## 🛡️ Deflationary Model
 Obsidian is designed as **"Ultrasound Legal Money"**. The 25% burn mechanism ensures that as the legal industry adopts the network for document verification, the circulating supply of OBS decreases, increasing the fundamental value of the remaining tokens. [1.2]
 
-## 🏛 Private Seed Round (Open)
+## 🏛 Strategic Pre-Seed Round (Open)
 Obsidian is currently in the **Pre-Seed** stage, offering an attractive entry point for strategic early partners.
 
 *   **Current Phase: Strategic Pre-Seed** 🚀
